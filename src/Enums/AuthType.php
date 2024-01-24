@@ -1,9 +1,11 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Wame\ZelenaPostaSdk\Enums;
 
-enum AuthType
+enum AuthType: string
 {
-    case BASIC_AUTH;
-    case OAUTH_2;
+    case BASIC_AUTH = '1';
+    case OAUTH_2 = '2';
 }

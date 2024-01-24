@@ -2,7 +2,7 @@
     "name": "wamesk/zelena-posta-sdk",
     "autoload": {
         "psr-4": {
-            "Wamesk\\ZelenaPostaSdk\\": "src/"
+            "Wame\\ZelenaPostaSdk\\": "src/"
         }
     },
     "authors": [
